@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side authentication back-end setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrzej35/serverside-authentication.git"
+  },
+  "author": "andrzej jedrzejewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrzej35/serverside-authentication/issues"
+  },
+  "homepage": "https://github.com/Andrzej35/serverside-authentication#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
